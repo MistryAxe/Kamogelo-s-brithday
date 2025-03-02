@@ -1,0 +1,151 @@
+body{
+    font-style: arial;
+    background-image: url('kamo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.animation-box{
+    width: 75%;
+    height: 27.5rem;
+    overflow: hidden;
+    position: relative;
+}
+.first-text{
+    font-size: 4.0rem;
+    color: rgb(229, 104, 202);
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: Kamogelo1;
+    animation-duration: 5s;
+
+}
+.second-text{
+    font-size: 3.0rem;
+    color: rgb(243, 47, 77);
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: Kamogelo2;
+    animation-duration: 5s;
+    animation-delay: 5s;
+
+}
+.third-text{
+    font-size: 2rem;
+    color: rgb(87, 247, 146);
+    position: absolute;
+    left: 0;
+    top: 5rem;
+    opacity: 0;
+    animation-name: Kamogelo3;
+    animation-duration: 5s;
+    white-space: nowrap;
+    animation-delay: 10s;
+
+}
+.fourth-text{
+    font-size: 3.0rem;
+    color: rgb(240,68,68);
+    position: absolute;
+    left: 20%;
+    top: 10rem;
+    opacity: 0;
+    animation-name: Kamogelo4;
+    animation-duration: 10s;
+    animation-delay: 15s;
+
+}
+.fifth-text{
+    font-size: 3rem;
+    color: rgb(213, 66, 249);
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    opacity: 0;
+    animation-name: Kamogelo5;
+    animation-duration: 20s;
+    animation-delay: 25s;
+
+}
+@keyframes Kamogelo1{
+    0%{
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top: 25%;
+        opacity: 1;
+    }
+    100%{
+        
+        opacity: 0;
+    }
+}
+@keyframes Kamogelo2{
+    0%{
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top: 45%;
+        opacity: 1;
+    }
+    100%{
+        
+        opacity: 0;
+    }
+}
+
+@keyframes Kamogelo3{
+    0%{
+        right:-3rem;
+        opacity: 0;
+    }
+    75%{
+        right: 10rem;
+        opacity: 1;
+    }
+    100%{
+        
+        opacity: 0;
+    }
+}
+@keyframes Kamogelo4{
+    0%{
+        right:-3rem;
+        opacity: 0;
+    }
+    75%{
+        right:10rem;
+        opacity: 1;
+    }
+    100%{
+        right:10rem;
+        opacity: 0;
+    }
+}
+@keyframes Kamogelo5{
+    0%{
+        
+        opacity: 0;
+    }
+    75%{
+        
+        opacity: 1;
+    }
+    100%{
+        
+        opacity: 0;
+    }
+}
+@media (max-width: 768px) {
+    .box {
+        background:  #b784db;
+        font-size: 18px;
+    }
+}
